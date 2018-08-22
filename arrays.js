@@ -34,6 +34,6 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array = [element, ...array]
+  array.push(element)
   return array
 }
